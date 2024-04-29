@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\salamzade_i\\source\\repos\\ExampleDbHomework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3363BFCC-6415-4C5F-8648-D93191AE182E}|ExampleDbHomework\\ExampleDbHomework.csproj|c:\\users\\salamzade_i\\source\\repos\\exampledbhomework\\exampledbhomework\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363BFCC-6415-4C5F-8648-D93191AE182E}|ExampleDbHomework\\ExampleDbHomework.csproj|solutionrelative:exampledbhomework\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3363BFCC-6415-4C5F-8648-D93191AE182E}|ExampleDbHomework\\ExampleDbHomework.csproj|c:\\users\\salamzade_i\\source\\repos\\exampledbhomework\\exampledbhomework\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3363BFCC-6415-4C5F-8648-D93191AE182E}|ExampleDbHomework\\ExampleDbHomework.csproj|solutionrelative:exampledbhomework\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\salamzade_i\\source\\repos\\ExampleDbHomework\\ExampleDbHomework\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExampleDbHomework\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\salamzade_i\\source\\repos\\ExampleDbHomework\\ExampleDbHomework\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ExampleDbHomework\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T15:39:20.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\salamzade_i\\source\\repos\\ExampleDbHomework\\ExampleDbHomework\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ExampleDbHomework\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\salamzade_i\\source\\repos\\ExampleDbHomework\\ExampleDbHomework\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ExampleDbHomework\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T15:32:51.257Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

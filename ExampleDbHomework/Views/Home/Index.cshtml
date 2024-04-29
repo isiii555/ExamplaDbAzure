@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var categories = ViewData["categories"] as List<ProductCategory>;
+    var products = ViewData["products"] as List<Product>;
+}
+
+<html>
+<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <form asp-controller="Home" asp-action="FilterByCategory">
+        <select name="categoryId" asp-items="@new SelectList(categories,nameof(ProductCategory.ProductCategoryId),nameof(ProductCategory.Name))">
+        </select>
+        <button type="submit">Filter by category</button>
+    </form>
+    @if (products is not null)
+    {
+        <div class="mycontainer">
+            @foreach (var item in products)
+            {
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">@item.ProductModel</p>
+                        <a href="#" class="btn btn-primary">@item.ProductNumber</a>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else {
+        <div>There is no product...</div>
+    }
+</body>
+</html>
+
